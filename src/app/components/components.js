@@ -1,6 +1,8 @@
 import angular from 'angular';
-import Home from './home/home';
+import Navbar from './navbar/navbar';
+import User from './user/user';
 
-export default angular.module('app.components', [
-  Home.name
+export default angular.module('app.common', [
+  Navbar.name,
+  User.name
 ]);
